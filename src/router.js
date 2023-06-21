@@ -6,11 +6,11 @@ Vue.use(VueRouter)
 
 const routes =[
     {
-        path: '/',
+        path: 'main',
         component: MainPage,
     },
     {
-        path: '/tasks',
+        path: 'tasks',
         component: Tasks
     }
 
