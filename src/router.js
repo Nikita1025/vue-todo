@@ -6,11 +6,11 @@ Vue.use(VueRouter)
 
 const routes =[
     {
-        path: 'main',
+        path: '/main',
         component: MainPage,
     },
     {
-        path: 'tasks',
+        path: '/tasks',
         component: Tasks
     }
 
@@ -18,5 +18,6 @@ const routes =[
 
 export default new VueRouter({
     mode: 'history',
+    base: 'vue-todo',
     routes
 })
